@@ -1,0 +1,36 @@
+
+.register {
+    display: flex;
+    justify-content: center;
+    .register_center {
+        width: $screen-width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        border-bottom: 1px solid $color-grey-medium;
+        .register_text {
+            width: 70ch;
+            font-size: 1.2rem;
+            line-height: 1.75rem;
+        }
+        .register_button {
+            .button {
+                display: flex;
+                align-items: center;
+                gap: 3rem;
+                padding: 1rem;
+                background-color: $color-primary;
+                color: $color-white;
+                border-radius: .25rem;
+                .label {}
+                .icon {
+                    display: flex;
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+}
